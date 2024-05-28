@@ -1,0 +1,18 @@
+{
+  "name": "echarts-map-download",
+  "version": "1.0.0",
+  "description": "这是node脚本，用于下载：https://datav.aliyun.com/portal/school/atlas/area_selector 的中国地图及其下钻省市区的json文件。在echarts展示。",
+  "main": "index.js",
+  "scripts": {
+    "download": "node ./download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.28.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  }
+}
